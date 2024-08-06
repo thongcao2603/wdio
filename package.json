@@ -6,6 +6,7 @@
   "scripts": {
     "test": "wdio run ./wdio.conf.js",
     "wdio": "wdio run ./wdio.conf.js",
+    "allure-report":"allure generate --clean allure-reporter",
     "login":"wdio run ./wdio.conf.js --suite login"
   },
   "keywords": [],

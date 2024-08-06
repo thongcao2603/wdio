@@ -9,5 +9,12 @@ describe('Test1', () => {
         await ele.moveTo()
         await browser.pause(5000)
     })
+
+    it('move mouse2', async () => {
+        browser.url('/')
+        const ele = await $('div=SpiceClub')
+        await ele.moveTo()
+        await browser.pause(5000)
+    })
 })
 
